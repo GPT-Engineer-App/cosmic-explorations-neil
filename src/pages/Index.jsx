@@ -14,9 +14,12 @@ const Index = () => {
           Dive into the mysteries of the universe!
         </Text>
         <Image src="https://images.unsplash.com/photo-1656542198209-4758a1afc42f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxzcGFjZSUyMG5lYnVsYXxlbnwwfHx8fDE3MTM4Mzk0Mzd8MA&ixlib=rb-4.0.3&q=80&w=1080" borderRadius="lg" mb={6} />
-        <Button colorScheme="purple" leftIcon={<FaStar />}>
+        <Button colorScheme="purple" leftIcon={<FaStar />} mb={4}>
           Explore the Stars
         </Button>
+        <Text fontSize="lg" fontStyle="italic">
+          Cosmic Fact of the Day: "The Sun contains 99.8% of the total mass of the Solar System."
+        </Text>
       </Flex>
 
       <VStack spacing={8} p={8}>
